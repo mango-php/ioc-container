@@ -1,0 +1,14 @@
+{
+    "name": "mango/ioc-container",
+    "description": "IOC container for the MangoPHP framework.",
+    "type": "library",
+    "require": {
+        "no": "no"
+    },
+    "authors": [
+        {
+            "name": "ketchums",
+            "email": "ketchums@outlook.com"
+        }
+    ]
+}
