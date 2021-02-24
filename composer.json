@@ -2,13 +2,16 @@
     "name": "mango/ioc-container",
     "description": "IOC container for the MangoPHP framework.",
     "type": "library",
-    "require": {
-        "no": "no"
-    },
+    "require": {},
     "authors": [
         {
             "name": "ketchums",
             "email": "ketchums@outlook.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-0": {
+            "Mango\\": "src/"
+        }
+    }
 }
