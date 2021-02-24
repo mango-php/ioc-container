@@ -1,5 +1,5 @@
 {
-    "name": "mango/ioc-container",
+    "name": "mango-php/ioc-container",
     "description": "IOC container for the MangoPHP framework.",
     "type": "library",
     "require": {},
