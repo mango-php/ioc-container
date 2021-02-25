@@ -81,8 +81,9 @@ class DependencyContainer
                 $objectToReturn = $objectValue;
             }
         }
-        else if (class_exists($object)) {
+        else {
             $objectToReturn = $this->make($object);
+            $this->registerSingleton($objectToReturn);
         }
 
         return $objectToReturn;
